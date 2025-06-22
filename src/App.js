@@ -22,11 +22,6 @@ function App() {
           <Footer />
         </div>
       </Router>
-      {/* <Home /> */}
-      {/* <AboutUs /> */}
-      {/* <Products /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
     </div>
   );
 }
