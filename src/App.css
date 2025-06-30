@@ -1,4 +1,7 @@
-/* global------------------------------------ */
+/* product, home = NA 
+about = working on it */
+
+/* global------------------------------------------------------------------------ */
 a {
     text-decoration: none;
     color: black;
@@ -6,8 +9,7 @@ a {
 a:hover {
     color: rgb(0, 98, 255);
 }
-
-/* Navbar------------------------------------ */
+/* Navbar------------------------------------------------------------------------ */
 .nav-logo {
     width: 45vw;
 }
@@ -41,9 +43,27 @@ a:hover {
         padding: 12px;
         align-self: center;
     }
+    /* below code added for making the transition smoother */
+    .nav-dropdown {
+        display: flex; /* show dropdown always (visibility managed by height) */
+        flex-direction: column;
+        width: 100vw;
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+        transition: height 0.4s ease, opacity 0.4s ease;
+    }
+    .nav-dropdown.open {
+        height: auto; /* this alone won't transition, but JS sets exact height */
+        opacity: 1;
+    }
+    .nav-dropdown a {
+        margin: 10px auto;
+        padding: 10px 0;
+    }
 }
-/* Home------------------------------------ */
-/* about us------------------------------------ */
+/* Home------------------------------------------------------------------------NA */
+/* about us------------------------------------------------------------------------working on it */
 .aboutus-container1 {
     height: calc(100vh - 85px);
     display: flex;
@@ -115,9 +135,8 @@ a:hover {
         width: 85%;
     }
 }
-
-/* Products------------------------------------ */
-/* contact us------------------------------------ */
+/* Products------------------------------------------------------------------------NA */
+/* contact us------------------------------------------------------------------------ */
 .contact-info-container {
     display: flex;
     align-items: flex-start;
@@ -186,8 +205,7 @@ svg {
         margin-top: 30px;
     }
 }
-
-/* Footer------------------------------------ */
+/* Footer------------------------------------------------------------------------ */
 .footer {
     text-align: center;
     padding: 12px 0px 15px 0px;
@@ -195,3 +213,4 @@ svg {
 .footer-span {
     font-size: 12px;
 }
+/* ------------------------------------------------------------------------ */
