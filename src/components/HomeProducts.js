@@ -9,102 +9,60 @@ export default function HomeProducts() {
         <div className="home-products-container">
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
           </div>
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
           </div>
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
           </div>
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
           </div>
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
           </div>
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
-              <img
-                className="home-prod-img"
-                src="https://www.umaexports.net/images/icon/2.png"
-                alt=""
-              />
+              <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}>
-                  {" "}
-                  Sugar is the most important sweetener throughout the world{" "}
-                </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
