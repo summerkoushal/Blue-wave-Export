@@ -19,7 +19,7 @@ export default function AboutUs() {
           </i>
         </div>
       </div>
-      <div className="aboutus-container2 bg-warning">
+      <div className="aboutus-container2">
         <div className="missionVision-container bg-white">
           <div className="aboutus-vision">
             <img style={{width: '150px'}} src="vision.png" alt="" />

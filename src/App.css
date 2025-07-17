@@ -204,7 +204,8 @@ html, body {
     margin: 0px 0px 20px 0px;
 }
 .aboutus-container2 {
-    height: 80vh;          
+    height: 80vh;
+    background-image: url(/public/gradientbg.jpg);
 }
 .missionVision-container {
     width: 75vw;
