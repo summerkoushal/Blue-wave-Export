@@ -1,5 +1,9 @@
-/* product, home = NA 
-about = working on it */
+/* -----------------DESIGNING FEEDBACKS
+home -> need to make it responsive
+about us -> ✅
+products -> NA
+contact us -> ✅  
+*/
 
 /* global------------------------------------------------------------------------ */
 a {
@@ -7,7 +11,7 @@ a {
     color: black;
 }
 a:hover {
-    color: rgb(0, 98, 255);
+    color: var(--link-hover);
 }
 html, body {
   overscroll-behavior: none;
@@ -255,4 +259,3 @@ svg {
 .footer-span {
     font-size: 12px;
 }
-/* ------------------------------------------------------------------------ */

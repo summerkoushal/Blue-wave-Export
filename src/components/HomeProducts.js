@@ -4,8 +4,8 @@ export default function HomeProducts() {
   return (
     <div>
       <div className="container">
-        <h5 style={{ color: "orange" }}>WHAT WE OFFER</h5>
-        <h2 style={{ marginBottom: '20px'}} >Our Products</h2>
+        <h5 style={{ color: "var(--subheading)" }}>WHAT WE OFFER</h5>
+        <h2 style={{ marginBottom: "20px" }}>Our Products</h2>
         <div className="home-products-container">
           <div className="home-product-card bg-light">
             <div style={{ display: "flex" }}>
