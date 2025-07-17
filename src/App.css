@@ -17,10 +17,8 @@ html, body {
     width: 45vw;
 }
 .nav-logo-img {
-    height: 65px;
-    width: 65px;
-    margin: 10px;
-    border-radius: 50%;
+    height: 45px;
+    margin: 9px 20px;
 }
 .nav-dropdown-btn, .nav-dropdown {
     display: none;

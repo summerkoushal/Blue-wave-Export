@@ -30,8 +30,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="nav bg-warning">
-      <div className="nav-logo"> <img className="nav-logo-img" src="/sampleLogo.jpg" alt="logo" /> </div>
+    <div className="nav bg-light">
+      <div className="nav-logo"> <img className="nav-logo-img bg-light" src="/12.png" alt="logo" /> </div>
       <button onClick={toggleNavDropdown} className="btn btn-warning nav-dropdown-btn" > <img className="nav-dropdown-img" src="/menu.svg" alt="" /> </button>
       <div
         ref={dropdownRef} className={`nav-dropdown bg-warning ${isDropdownOpen ? "open" : ""}`}
