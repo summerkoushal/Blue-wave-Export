@@ -10,10 +10,10 @@ code {
 }
 
 :root {
-  --primary-color: #0272bd;
+  /* --primary-color: #0272bd;
   --secondary-color: #2ecc71;
   --text-color: #333333;
-  --background-color: #ffffff;
+  --background-color: #ffffff; */
   --link-hover: #0272bd;
   --subheading: #ffb700;
 }

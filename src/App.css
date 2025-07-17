@@ -4,6 +4,7 @@ home -> ✅
 about us -> ✅
 products -> NA
 contact us -> ✅  
+footer -> ✅, ✅
 */
 
 /* global------------------------------------------------------------------------ */
@@ -31,14 +32,14 @@ html, body {
     width: 45vw;
 }
 .nav-logo-img {
-    height: 45px; /*make it small*/
-    margin: 9px 20px; /*adjust this*/
+    height: 45px;
+    margin: 9px 20px;
 }
 .nav-dropdown-btn, .nav-dropdown {
     display: none;
 }
 .nav-dropdown-img {
-    height: 25px; /*make it small*/
+    height: 25px;
 }
 .nav-links {
     width: 50vw; 
@@ -398,4 +399,15 @@ svg {
 }
 .footer-span {
     font-size: 12px;
+    font-style: italic;
+}
+@media screen and (max-width: 479px) {
+    .footer {
+        text-align: center;
+        padding:6px 0px 15px 0px;
+    }
+    .footer-span {
+        font-size: 10px;
+        
+    }
 }
