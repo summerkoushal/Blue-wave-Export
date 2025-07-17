@@ -1,11 +1,14 @@
 /* -----------------DESIGNING FEEDBACKS
-home -> make container 1 responsive
+home -> ✅
 about us -> ✅
 products -> NA
 contact us -> ✅  
 */
 
 /* global------------------------------------------------------------------------ */
+* {
+    box-sizing: border-box;
+}
 a {
     text-decoration: none;
     color: black;
@@ -15,6 +18,10 @@ a:hover {
 }
 html, body {
   overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
 }
 /* Navbar------------------------------------------------------------------------ */
 .nav-logo {
@@ -68,6 +75,34 @@ html, body {
     }
 }
 /* Home------------------------------------------------------------------------ */
+.home-main-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.home-main-img {
+    width: 100%;
+    height: calc(100vh - 63px);
+    object-fit: cover;
+    display: block;
+}
+.home-main-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.home-main-text {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.home-main-btn {
+    font-size: 25px !important;
+}
 .home-about-container {
     display:flex;
     justify-content: space-evenly;
