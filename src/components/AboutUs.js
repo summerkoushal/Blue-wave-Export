@@ -1,4 +1,7 @@
 import React from "react";
+import TeamCarousel from "./TeamCarousel";
+import Certifications from "./Certifications";
+import Associates from "./Associates";
 
 export default function AboutUs() {
   return (
@@ -38,8 +41,15 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <h1>summer</h1>
-      <h3>koushal</h3>
+      <div className="container">
+        <h5 style={{margin: '100px 0px 0px 0px'}} >TEAM MEMBER</h5>
+        <h1>Management Team</h1>
+        <p>The management of “UMA” group of companies represent the wisdom, experience and tact of the old along with the energetic efficiency of the young.</p>
+        <TeamCarousel />
+        <Certifications />
+        <Associates />
+      </div>
+      
     </>
   );
 }
