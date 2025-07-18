@@ -1,6 +1,5 @@
 /* -----------------DESIGNING FEEDBACKS, phone responsive
 products -> NA
-contact us -> ✅  
 */
 
 /* global------------------------------------------------------------------------ */
@@ -384,6 +383,40 @@ html, body {
 }
 /* Products------------------------------------------------------------------------NA */
 /* contact us------------------------------------------------------------------------ */
+.contact-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+} 
+.contact-map {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+}
+.contact-map-iframe {
+    height: 100%;
+    width: 100%;
+}
+.contact-form-div {
+    width: 40vw;
+}
+.contact-form-heading {
+    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--subheading);
+    margin-bottom: 25px;
+}
+.contact-form {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-form-input {
+    width: calc(50% - 10px);
+    margin: 15px 0px;
+}
+.contact-form-submit {
+    margin-bottom: 10px;
+}
+/*------ */
 .contact-info-container {
     display: flex;
     align-items: flex-start;
@@ -395,46 +428,23 @@ html, body {
     padding: 15px 20px;
     background-color: white;
 }
-.contact-div {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 0px;
-}
-.contact-map {
-    width: 35vw;
-    height: 35vw;
-}
-.contact-map-iframe {
-    height: 100%;
-    width: 100%;
-}
-.contact-form-div {
-    width: 35vw;
-}
-.contact-form-heading {
-    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px #F6C344;
-    margin-bottom: 25px;
-}
-.contact-form-input {
-    width: 45%;
-    margin: 15px 0px;
-}
-.contact-form {
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 svg {
     height: 30px;
     width: 30px;
 }
-@media screen and (max-width: 767px) {
-    .contact-info-cards {
-        width: 85vw;
-        margin: 15px;
-        background-color: white;
+/*------ */
+@media screen and (max-width: 991px) {
+    .contact-map {
+        width: 45%;
     }
+    .contact-form-div {
+        width: 45vw;
+    }
+    .contact-form {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
     .contact-div {
         flex-direction: column;
         padding: 30px 0px;
@@ -442,7 +452,7 @@ svg {
     .contact-map {
         width: 85vw;
         height: 85vw;
-        margin: auto;
+        align-self: center;
     }
     .contact-form-div {
         width: 85vw;
@@ -450,6 +460,48 @@ svg {
     }
     .contact-form-heading {
         margin-top: 30px;
+    }
+    .contact-info-cards {
+        width: 85vw;
+        margin: 15px;
+        background-color: white;
+    }
+}
+@media screen and (max-width: 479px) {
+    .contact-div {
+        padding: 10px 0px;
+    }
+    .contact-map {
+        width: calc(100vw - 30px);
+    }
+    .contact-form-div {
+        width: calc(100vw - 30px);
+    }
+    .contact-form-heading {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        padding: 10px;
+    }
+    .contact-form-input {
+        width: calc(50% - 7px);
+        margin: 10px 0px;
+    } 
+    .contact-form-submit {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .contact-info-cards {
+        width: calc(100vw - 30px);
+        margin: 9px 0px 0px 0px;
+        padding: 8px 15px;
+        background-color: white;
+    }
+    svg {
+        height: 30px;
+        width: 30px;
     }
 }
 /* Footer------------------------------------------------------------------------ */
@@ -468,6 +520,5 @@ svg {
     }
     .footer-span {
         font-size: 10px;
-        
     }
 }

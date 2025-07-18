@@ -16,7 +16,7 @@ export default function ContactUs() {
             <input className="contact-form-input" type="text" placeholder="Pincode*" name="Pincode" autoComplete="off" required />
             <input className="contact-form-input" style={{ width: "100%" }} type="text" placeholder="Subject*" name="subject" autoComplete="off" required />
             <textarea className="contact-form-input" style={{ width: "100%", height: "100px" }} name="Message" placeholder="write a message..." autoComplete="off" required ></textarea>
-            <button style={{ width: "100%" }} className="btn btn-warning"> Submit request </button>
+            <button style={{ width: "100%" }} className="btn btn-warning contact-form-submit"> Submit request </button>
           </form>
         </div>
       </div>
