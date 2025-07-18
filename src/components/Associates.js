@@ -33,21 +33,20 @@ const logos = [...associates, ...associates];
 export default function AssociatesSection() {
   return (
     <section className="py-5 bg-white overflow-hidden">
-      <div className="container">
-        <h2 className="text-center fw-bold mb-2">Associates</h2>
+      <div className="container px-0">
+        <h2 className="text-center  mb-2">Associates</h2>
         <div
           className="mx-auto mb-4"
-          style={{ width: "3rem", height: "4px", backgroundColor: "#d97706" }}
+          style={{ width: "3rem", height: "4px", backgroundColor: "var(--subheading)" }}
         />
 
         {/* Scrolling carousel */}
-        <div className="scroll-wrapper mx-auto" style={{ width: "70vw" }}>
+        <div className="scroll-wrapper mx-auto">
           <div className="scroll-track d-flex flex-nowrap align-items-center">
             {logos.map(({ name, logo, category }, idx) => (
               <div
                 key={idx}
-                className="d-flex flex-column align-items-center px-4"
-                style={{ flex: "0 0 auto", width: "180px" }}
+                className="logo-item d-flex flex-column align-items-center"
               >
                 <img
                   src={logo}
@@ -57,7 +56,7 @@ export default function AssociatesSection() {
                 />
                 <p
                   className="mt-2 fw-semibold text-center"
-                  style={{ color: "#d97706", fontSize: "0.9rem" }}
+                  style={{ color: "var(--subheading)", fontSize: "0.9rem" }}
                 >
                   {category}
                 </p>
@@ -67,15 +66,19 @@ export default function AssociatesSection() {
         </div>
       </div>
 
-      {/* Animation styles */}
+      {/* Styles */}
       <style>{`
         .scroll-wrapper {
+          width: 70vw;
           overflow: hidden;
           position: relative;
         }
 
         .scroll-track {
-          animation: scroll-left 25s linear infinite;
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 1rem;
+          animation: scroll-left 10s linear infinite;
         }
 
         @keyframes scroll-left {
@@ -84,6 +87,31 @@ export default function AssociatesSection() {
           }
           100% {
             transform: translateX(-50%);
+          }
+        }
+
+        .logo-item {
+          flex: 0 0 auto;
+          width: 150px;
+        }
+
+        @media (max-width: 768px) {
+          .scroll-wrapper {
+            width: 90vw;
+          }
+
+          .logo-item {
+            width: 130px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .scroll-wrapper {
+            width: 95vw;
+          }
+
+          .logo-item {
+            width: 120px;
           }
         }
       `}</style>

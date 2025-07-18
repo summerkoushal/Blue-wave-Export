@@ -1,5 +1,4 @@
 /* -----------------DESIGNING FEEDBACKS, phone responsive
-about us -> ✅
 products -> NA
 contact us -> ✅  
 */
@@ -243,7 +242,7 @@ html, body {
 }
 /* about us------------------------------------------------------------------------ */
 .aboutus-container1 {
-    height: calc(100vh - 85px);
+    height: calc(100vh - 52px);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -251,22 +250,20 @@ html, body {
 .aboutus-img {
     height: 60%;
     width: 40%;
-    box-shadow: -10px -10px 0px 0px #F6C344;
-    display: inline;
+    box-shadow: -5px -5px 0px 0px var(--subheading);
 }
 .aboutus-text-container {
     width: 40%;
     text-align: justify;
 }
 .aboutus-text-heading {
-    margin: 5px 0px;
+    margin-bottom: 5px;
 }
 .aboutus-text-subheading {
-    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px #EEC55C;
-    margin: 0px 0px 20px 0px;
+    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--subheading);
+    margin-bottom: 20px;
 }
 .aboutus-container2 {
-    height: 80vh;
     background-image: url(/public/gradientbg.jpg);
 }
 .missionVision-container {
@@ -279,12 +276,19 @@ html, body {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 .aboutus-vision {
-    margin: 50px;
+    margin: 30px 50px;
     width: 30vw;
+}
+.aboutus-vision-img {
+    height: 120px;
 }
 .aboutus-mission {
     margin: 50px;
     width: 35vw;
+}
+.aboutus-mission-img {
+    height: 90px;
+    margin-top: 10px;
 }
 .certificate {
     width: 45px;
@@ -296,7 +300,6 @@ html, body {
     margin: 7px;
 }
 @media screen and (max-width: 2000px) {
-    /* large tablet */
     .aboutus-img {
         width: 45%;
     }
@@ -305,43 +308,33 @@ html, body {
     }
 }
 @media screen and (max-width: 991px) {
-    /* large tablet */
     .aboutus-container1 {
         height: 100%;
         flex-direction: column;
     }
     .aboutus-img {
-        width: 75%;
-        margin: 50px;
+        width: 85%;
+        margin: 50px 0px;
     }
     .aboutus-text-container {
-        width: 75%;
-        margin-bottom: 45px;
+        width: 85%;
+        margin-bottom: 50px;
     }
     .missionVision-container {
         width: 85vw;
     }
     .aboutus-vision {
-        margin: 30px;
+        margin: 25px;
         width: 40vw;
     }
     .aboutus-mission {
-        margin: 30px;
+        margin: 45px 30px;
         width: 45vw;
     }
 }
 @media screen and (max-width: 767px) {
-    /* medium tablet */
     .aboutus-img {
-        width: 85%;
         margin: 30px;
-        box-shadow: -10px -10px 0px 0px #F6C344;
-    }
-    .aboutus-text-container {
-        width: 85%;
-    }
-    .aboutus-container2 {
-        height: 100%;          
     }
     .missionVision-container {
         width: calc(100vw - 50px);
@@ -350,9 +343,43 @@ html, body {
     }
     .aboutus-vision {
         width: 90%;
+        margin: 20px 0px 0px 0px;
     }
     .aboutus-mission {
         width: 90%;
+        margin:20px 0px 10px 0px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .aboutus-img {
+        margin: 20px 0px;
+    }
+    .aboutus-text-subheading {
+        margin-bottom: 15px;
+    }
+    .aboutus-text-container {
+        margin-bottom: 15px;
+    }
+    .aboutus-vision {
+        margin: 15px 0px 0px 0px;
+    }
+    .aboutus-vision-img {
+        height: 90px;
+    }
+    .aboutus-mission {
+        margin: 0px 0px 10px 0px;
+    }
+    .aboutus-mission-img {
+        height: 60px;
+    }
+    .certificate {
+        width: 40px;
+        margin-right: 10px;
+    }
+    .certficate-card { 
+        background-color: whitesmoke;
+        padding: 5px;
+        margin: 5px;
     }
 }
 /* Products------------------------------------------------------------------------NA */
