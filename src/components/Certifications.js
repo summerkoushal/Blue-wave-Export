@@ -3,7 +3,7 @@ import React from 'react'
 export default function Certifications() {
   return (
     <div>
-      <h1 style={{margin: '50px 0px 20px 0px'}} >Certifications</h1>
+      <h2 className='certificate-heading' >Certifications</h2>
       <div
         style={{ display: "flex", flexDirection: "column", flexWrap: "wrap" }}
         className="certifications-container"

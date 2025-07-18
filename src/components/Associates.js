@@ -34,7 +34,7 @@ export default function AssociatesSection() {
   return (
     <section className="py-5 bg-white overflow-hidden">
       <div className="container px-0">
-        <h2 className="text-center  mb-2">Associates</h2>
+        <h2 style={{color:'var(--theme-dark)'}} className="text-center  mb-2">Associates</h2>
         <div
           className="mx-auto mb-4"
           style={{ width: "3rem", height: "4px", backgroundColor: "var(--subheading)" }}

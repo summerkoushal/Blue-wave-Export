@@ -8,7 +8,7 @@ export default function ContactUs() {
           <iframe className="contact-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008575643768!2d-117.92154912424449!3d33.81209177324842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sin!4v1749910450059!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
         </div>
         <div className="contact-form-div">
-          <h3 className="contact-form-heading"> Contact Us </h3>
+          <h2 className="contact-form-heading"> Contact Us </h2>
           <form className="contact-form bg-light" action="https://formspree.io/f/manjjnvb" method="POST">
             <input className="contact-form-input" type="text" placeholder="Full Name*" name="Name" autoComplete="off" required />
             <input className="contact-form-input" type="text" placeholder="Phone Number*" name="Phone" autoComplete="off" required />
@@ -16,7 +16,7 @@ export default function ContactUs() {
             <input className="contact-form-input" type="text" placeholder="Pincode*" name="Pincode" autoComplete="off" required />
             <input className="contact-form-input" style={{ width: "100%" }} type="text" placeholder="Subject*" name="subject" autoComplete="off" required />
             <textarea className="contact-form-input" style={{ width: "100%", height: "100px" }} name="Message" placeholder="write a message..." autoComplete="off" required ></textarea>
-            <button style={{ width: "100%" }} className="btn btn-warning contact-form-submit"> Submit request </button>
+            <button style={{ width: "100%" }} className="btn contact-form-submit"> Submit request </button>
           </form>
         </div>
       </div>

@@ -13,7 +13,7 @@ a {
     color: black;
 }
 a:hover {
-    color: var(--link-hover);
+    color: var(--theme-link);
 }
 html, body {
     margin: 0;
@@ -143,6 +143,15 @@ html, body {
     background-color: whitesmoke;
     padding: 30px;
 }
+.home-about-written-subheading {
+    color: var(--theme-bright);
+}
+.home-about-written-heading {
+    color: var(--theme-dark);
+}
+.home-about-btn, .home-about-btn:hover {
+    background-color: var(--theme-bright);
+}
 @media screen and (max-width: 991px) {
     .home-about-container {
         flex-direction: column;
@@ -183,6 +192,13 @@ html, body {
     width: 50vw;
     padding: 40px 20px;
 }
+.home-export-text-subheading {
+    color: var(--theme-bright);
+}
+.home-export-text-heading {
+    color: var(--theme-dark);
+    margin-bottom: 20px;
+}
 .home-export-img {
     width: 50vw;
 }
@@ -202,6 +218,13 @@ html, body {
     .home-export-img {
         padding: 0px;
     }
+}
+.home-product-subheading {
+    color: var(--theme-bright);
+}
+.home-product-heading {
+    margin-bottom: 20px;
+    color: var(--theme-dark);
 }
 .home-products-container {
     display: flex;
@@ -249,18 +272,20 @@ html, body {
 .aboutus-img {
     height: 60%;
     width: 40%;
-    box-shadow: -5px -5px 0px 0px var(--subheading);
+    box-shadow: -5px -5px 0px 0px var(--theme-bright);
 }
 .aboutus-text-container {
     width: 40%;
     text-align: justify;
 }
-.aboutus-text-heading {
-    margin-bottom: 5px;
-}
 .aboutus-text-subheading {
-    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--subheading);
+    margin-bottom: 5px;
+    color: var(--theme-bright);
+}
+.aboutus-text-heading {
+    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--theme-bright);
     margin-bottom: 20px;
+    color: var(--theme-dark);
 }
 .aboutus-container2 {
     background-image: url(/public/gradientbg.jpg);
@@ -288,6 +313,20 @@ html, body {
 .aboutus-mission-img {
     height: 90px;
     margin-top: 10px;
+}
+.aboutus-missionvision-subheading {
+    color: var(--theme-bright);
+}
+.aboutus-carousel-subheading {
+    margin: 100px 0px 0px 0px;
+    color: var(--theme-bright);
+}
+.aboutus-carousel-heading {
+    color: var(--theme-dark);
+}
+.certificate-heading {
+    margin: 50px 0px 20px 0px;
+    color: var(--theme-dark);
 }
 .certificate {
     width: 45px;
@@ -400,7 +439,8 @@ html, body {
     width: 40vw;
 }
 .contact-form-heading {
-    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--subheading);
+    color: var(--theme-dark);
+    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--theme-bright);
     margin-bottom: 25px;
 }
 .contact-form {
@@ -415,6 +455,10 @@ html, body {
 }
 .contact-form-submit {
     margin-bottom: 10px;
+    background-color: var(--theme-bright);
+}
+.contact-form-submit:hover {
+    background-color: var(--theme-bright);
 }
 /*------ */
 .contact-info-container {

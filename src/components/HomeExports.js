@@ -4,8 +4,8 @@ export default function HomeExports() {
   return (
     <div className="home-export-container">
       <div className="home-export-text container bg-light">
-        <h5 style={{ color: "orange" }}>Why Choose Us?</h5>
-        <h2 style={{ marginBottom: "20px" }}>Exports / Imports</h2>
+        <h5 className="home-export-text-subheading">Why Choose Us?</h5>
+        <h2 className="home-export-text-heading">Exports / Imports</h2>
         <p> Our network is spread all over the world including India. The countries in which we deal are inclusive of ................................. </p>
         <div style={{ display: "flex" }} >
           <div style={{ width: "40%", marginLeft: "30px" }}>

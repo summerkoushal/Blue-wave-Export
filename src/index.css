@@ -10,10 +10,7 @@ code {
 }
 
 :root {
-  /* --primary-color: #0272bd;
-  --secondary-color: #2ecc71;
-  --text-color: #333333;
-  --background-color: #ffffff; */
-  --link-hover: #0272bd;
-  --subheading: #ffb700;
+  --theme-link: #0272bd;
+  --theme-bright: #ffb700;
+  --theme-dark: black;
 }
