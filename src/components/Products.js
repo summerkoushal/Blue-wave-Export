@@ -1,9 +1,10 @@
 import React from 'react'
+import FoodGrainsPage from './FoodGrainsPage'
 
 export default function Products() {
   return (
     <div>
-      Products component
+      <FoodGrainsPage />
     </div>
   )
 }
