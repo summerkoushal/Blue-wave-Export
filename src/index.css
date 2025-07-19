@@ -11,6 +11,8 @@ code {
 
 :root {
   --theme-link: #0272bd;
-  --theme-bright: #ffb700;
-  --theme-dark: black;
+  /* --theme-bright: #ffb700; */
+  /* --theme-dark: black; */
+  --theme-dark : #113F67;
+  --theme-light : #EFE4D2;
 }
