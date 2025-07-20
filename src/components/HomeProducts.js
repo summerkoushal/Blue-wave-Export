@@ -12,7 +12,7 @@ export default function HomeProducts() {
               <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
@@ -22,7 +22,7 @@ export default function HomeProducts() {
               <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
@@ -32,7 +32,7 @@ export default function HomeProducts() {
               <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
@@ -42,7 +42,7 @@ export default function HomeProducts() {
               <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
@@ -52,7 +52,7 @@ export default function HomeProducts() {
               <img className="home-prod-img" src="https://www.umaexports.net/images/icon/2.png" alt="" />
               <div>
                 <h5>Sugar</h5>
-                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world{" "} </p>
+                <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
             <button className="btn">Learn more</button>
