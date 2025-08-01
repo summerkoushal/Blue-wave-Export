@@ -1,5 +1,7 @@
 /* -----------------DESIGNING FEEDBACKS, phone responsive
 products -> NA
+styling done : navbar, 
+styling in progress : contact us
 */
 
 /* global------------------------------------------------------------------------ */
@@ -10,7 +12,7 @@ products -> NA
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover {
     color: var(--theme-link);
@@ -23,12 +25,15 @@ html, body {
     overscroll-behavior: none;
 }
 /* Navbar------------------------------------------------------------------------ */
+.nav {
+    background-color: var(--theme-grey);
+}
 .nav-logo {
     width: 45vw;
 }
 .nav-logo-img {
-    height: 45px;
-    margin: 9px 20px;
+    height: 41px;
+    margin: 7px 20px;
 }
 .nav-dropdown-btn, .nav-dropdown {
     display: none;
@@ -106,7 +111,7 @@ html, body {
 }
 .home-main-img {
     width: 100%;
-    height: calc(100vh - 63px);
+    height: calc(100vh - 55px);
     object-fit: cover;
     display: block;
 }
@@ -440,7 +445,6 @@ html, body {
 }
 .contact-form-heading {
     color: var(--theme-dark);
-    box-shadow: 45px 5px 0px 0px white, 0px 5px 0px 0px var(--theme-bright);
     margin-bottom: 25px;
 }
 .contact-form {
@@ -466,11 +470,19 @@ html, body {
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-image: url(/public/contact-footer.jpg);
+    background-size: 100%;
+    width: 100%;
 }
 .contact-info-cards {
     margin: 30px;
     padding: 15px 20px;
-    background-color: white;
+    /* styling below */
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+    backdrop-filter: blur(12px); /* main blur effect */
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    color: white; /* adjust as needed */
 }
 svg {
     height: 30px;
