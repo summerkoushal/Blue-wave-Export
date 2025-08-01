@@ -1,7 +1,8 @@
 /* -----------------DESIGNING FEEDBACKS, phone responsive
 products -> NA
-styling done : navbar, 
-styling in progress : contact us
+styling done for pc view : navbar, contact us
+styling in progress : home
+remaining : about, products
 */
 
 /* global------------------------------------------------------------------------ */
@@ -430,7 +431,12 @@ html, body {
 .contact-div {
     display: flex;
     justify-content: space-around;
-    padding: 50px 0px;
+    padding: 50px 0px; 
+    min-height: calc(100vh - 55px);
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #00263f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #002741); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 } 
 .contact-map {
     width: 40%;
@@ -442,27 +448,30 @@ html, body {
 }
 .contact-form-div {
     width: 40vw;
+    align-self: center;
 }
 .contact-form-heading {
-    color: var(--theme-dark);
-    margin-bottom: 25px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0px 25px;
 }
 .contact-form {
-    padding: 25px;
+    padding: 3px 25px 25px 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .contact-form-input {
     width: calc(50% - 10px);
-    margin: 15px 0px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    /* border: 1px solid white; */
 }
 .contact-form-submit {
+    margin-top: 25px;
     margin-bottom: 10px;
-    background-color: var(--theme-bright);
-}
-.contact-form-submit:hover {
-    background-color: var(--theme-bright);
 }
 /*------ */
 .contact-info-container {
@@ -470,19 +479,19 @@ html, body {
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-image: url(/public/contact-footer.jpg);
-    background-size: 100%;
-    width: 100%;
+    background-color: var(--theme-dark);
+    min-height: 350px;
 }
 .contact-info-cards {
     margin: 30px;
-    padding: 15px 20px;
+    padding: 20px 25px;
     /* styling below */
     border-radius: 8px;
-    box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(255, 255, 255, 0.093) 1px 1px 20px 0px;
     backdrop-filter: blur(12px); /* main blur effect */
     -webkit-backdrop-filter: blur(12px); /* Safari support */
     color: white; /* adjust as needed */
+    margin: 60px 30px;
 }
 svg {
     height: 30px;
@@ -520,7 +529,6 @@ svg {
     .contact-info-cards {
         width: 85vw;
         margin: 15px;
-        background-color: white;
     }
 }
 @media screen and (max-width: 479px) {
@@ -553,7 +561,6 @@ svg {
         width: calc(100vw - 30px);
         margin: 9px 0px 0px 0px;
         padding: 8px 15px;
-        background-color: white;
     }
     svg {
         height: 30px;
@@ -563,7 +570,7 @@ svg {
 /* Footer------------------------------------------------------------------------ */
 .footer {
     text-align: center;
-    padding: 12px 0px 15px 0px;
+    padding: 15px 0px 18px 0px;
 }
 .footer-span {
     font-size: 12px;
