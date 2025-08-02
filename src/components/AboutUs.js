@@ -9,7 +9,7 @@ export default function AboutUs() {
       <div className="aboutus-container1">
         <img className="aboutus-img" src="/pulses.jpg" />
         <div className="aboutus-text-container">
-          <h4 className="aboutus-text-subheading">About</h4>
+          <h4 className="aboutus-text-subheading">ABOUT</h4>
           <h2 className="aboutus-text-heading">Blue wave Exports</h2>
           <i> alias omnis, deserunt cupiditate atque eligendi officia perferendislaboriosam voluptatem, libero reprehenderit quis vitae iusto, aliquam nisi odit Necessitatibus, odio rerum? Minima facere tenetur, adipisci vel autem molestiae ex iste maiores. Praesentium, illum quae quia, Voluptates tempora veritatis, nobis nemo dolorum molestiae quidem aspernatur odit labore nihil! Hic totam impedit, alias nemo cumque odit minus rerum quisquam tempore corrupti ut labore, voluptate corporis incidunt dolor quas tenetur eum dolorem possimus nostrum. similique nemo eaque adipisci, velit eum excepturi dolorum dolores obcaecati voluptatum voluptates pariatur ad maxime tenetur. Quisquam Labore minus perferendis dolor, omnis quo ipsum harum aspernatur eos aliquam natus eligendi in similique atque dolorum eius. Sequi maiores, sit commodi facere nisi doloremque quibusdam voluptate, illo, ut eos recusandae rerum. Magni neque deserunt dolor autem, architecto officiis harum maiores quas eos, similique ab vitae quae. Vitae distinctio nemo minima voluptas a nisi sed quas nostrum quasi odio, laboriosam sint unde nihil repellat corporis debitis eius veritatis dolorum? Laboriosam pariatur, quas consequatur ex quibusdam expedita harum quidem deleniti magnam amet enim, odit illum cupiditate dolorem sed dicta. Vitae distinctio nemo minima voluptas a nisi? </i>
         </div>

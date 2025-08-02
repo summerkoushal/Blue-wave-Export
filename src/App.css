@@ -1,10 +1,9 @@
-/* -----------------DESIGNING FEEDBACKS, phone responsive
-products -> NA
-styling done for pc view : navbar, contact us
-styling in progress : home
-remaining : about, products
+/* -----------------
+creation : products, policy
+styling basic : navbar, footer, contact, home
+styling progress : 
+styling remaining : about, products
 */
-
 /* global------------------------------------------------------------------------ */
 * {
     box-sizing: border-box;
@@ -136,8 +135,8 @@ html, body {
 .home-about-container {
     display:flex;
     justify-content: space-evenly;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .home-about-img {
     width: 45%;
@@ -148,15 +147,14 @@ html, body {
     width: 45%;
     background-color: whitesmoke;
     padding: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 .home-about-written-subheading {
     color: var(--theme-bright);
 }
 .home-about-written-heading {
-    color: var(--theme-dark);
-}
-.home-about-btn, .home-about-btn:hover {
-    background-color: var(--theme-bright);
+    color: var(--theme-grey);
 }
 @media screen and (max-width: 991px) {
     .home-about-container {
@@ -192,7 +190,6 @@ html, body {
 }
 .home-export-container { 
     display: flex;
-    margin-bottom: 40px;
 }
 .home-export-text {
     width: 50vw;
@@ -227,10 +224,11 @@ html, body {
 }
 .home-product-subheading {
     color: var(--theme-bright);
+    padding-top: 40px;
 }
 .home-product-heading {
     margin-bottom: 20px;
-    color: var(--theme-dark);
+    color: whitesmoke;
 }
 .home-products-container {
     display: flex;
@@ -241,6 +239,9 @@ html, body {
     width: 28%; 
     padding: 12px;
     margin-bottom: 40px;
+    color:white;
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.047);
+    border: 1px solid rgba(128, 128, 128, 0.021);
 }
 .home-prod-img {
     height: 60px;
