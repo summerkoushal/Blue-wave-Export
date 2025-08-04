@@ -10,7 +10,7 @@ export default function Home() {
         <img className="home-main-img" src="home.jpg" alt="Home"/>
         <div className="home-main-text-container">
           <p className="home-main-text">- Agriculture Products -</p>
-          <button className="btn btn-warning home-main-btn">Our Products</button>
+          <button className="btn btn-primary home-main-btn">Our Products</button>
         </div>
       </div>
       <HomeAbout />

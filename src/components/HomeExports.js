@@ -3,7 +3,7 @@ import React from "react";
 export default function HomeExports() {
   return (
     <div className="home-export-container">
-      <div className="home-export-text container bg-light">
+      <div className="home-export-text container">
         <h5 className="home-export-text-subheading">Why Choose Us?</h5>
         <h2 className="home-export-text-heading">Exports / Imports</h2>
         <p> Our network is spread all over the world including India. The countries in which we deal are inclusive of ................................. </p>

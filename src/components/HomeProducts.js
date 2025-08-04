@@ -15,7 +15,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
           <div className="home-product-card">
             <div style={{ display: "flex" }}>
@@ -25,7 +25,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
           <div className="home-product-card">
             <div style={{ display: "flex" }}>
@@ -35,7 +35,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
           <div className="home-product-card">
             <div style={{ display: "flex" }}>
@@ -45,7 +45,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
           <div className="home-product-card">
             <div style={{ display: "flex" }}>
@@ -55,7 +55,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
           <div className="home-product-card">
             <div style={{ display: "flex" }}>
@@ -65,7 +65,7 @@ export default function HomeProducts() {
                 <p style={{ marginBottom: "0px" }}> Sugar is the most important sweetener throughout the world </p>
               </div>
             </div>
-            <button className="btn btn-outline-warning">Learn more</button>
+            <button className="btn btn-outline-light">Learn more</button>
           </div>
         </div>
       </div>

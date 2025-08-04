@@ -1,8 +1,7 @@
 /* -----------------
 creation : products, policy
+styling progress : about
 styling basic : navbar, footer, contact, home
-styling progress : 
-styling remaining : about, products
 */
 /* global------------------------------------------------------------------------ */
 * {
@@ -141,14 +140,12 @@ html, body {
 .home-about-img {
     width: 45%;
     height: 100%;
-    align-self: flex-start;
+    align-self: center;
 }
 .home-about-written {
     width: 45%;
     background-color: whitesmoke;
     padding: 30px;
-
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 .home-about-written-subheading {
     color: var(--theme-bright);
@@ -194,6 +191,11 @@ html, body {
 .home-export-text {
     width: 50vw;
     padding: 40px 20px;
+    background-image: url('https://images.pexels.com/photos/2395253/pexels-photo-2395253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 .home-export-text-subheading {
     color: var(--theme-bright);
