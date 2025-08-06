@@ -39,6 +39,7 @@ export default function Navbar() {
         <Link to="/" onClick={handleLinkClick}>Home</Link>
         <Link to="/about" onClick={handleLinkClick}>About us</Link>
         <Link to="/products" onClick={handleLinkClick}>Products</Link>
+        <Link to="/policy" onClick={handleLinkClick}>Policy</Link>
         <Link to="/contact" onClick={handleLinkClick}>Contact us</Link>
       </div>
 
@@ -46,6 +47,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About us</Link>
         <Link to="/products">Products</Link>
+        <Link to="/policy">Policy</Link>
         <Link to="/contact">Contact us</Link>
       </div>
     </div>
