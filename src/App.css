@@ -438,7 +438,45 @@ html, body {
         margin: 5px;
     }
 }
-/* Products------------------------------------------------------------------------NA */
+/* Products-------------------------------------------------------------------------- */
+/* Policy---------------------------------------------------------------------------- */
+.ok { 
+    min-height: calc(100vh - 112px);
+}
+.policy-card-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.policy-card {
+    background-color: whitesmoke;
+    width: 180px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.policy-card-img {
+    width: 90px;
+}
+@media screen and (max-width: 991px) {
+    .policy-card {
+        width: 160px;
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    .policy-card-img {
+        width: 70px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .policy-card {
+        width: 145px;
+        padding: 10px;
+        margin-bottom: 13px;
+    }
+    .policy-card-img {
+        width: 63px;
+    }
+}
 /* contact us------------------------------------------------------------------------ */
 .contact-div {
     display: flex;

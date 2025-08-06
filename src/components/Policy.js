@@ -2,11 +2,8 @@ import React from 'react'
 
 export default function Policy() {
   return (
-    <>
-      <div className="container bg-warnidng">
-        <div className="text-center mb-5">
-        </div>
-
+    <div className='ok'>
+      <div className="container text-center pt-5">
         <div className="row">
           {/* Sidebar */}
           <aside className="col-md-3 mb-4">
@@ -22,24 +19,61 @@ export default function Policy() {
             </div>
           </aside>
 
-          <main className="col-md-9 text-center">
-            <div style={{ backgroundColor: 'whitesmoke', width: '180px' }} className="card-body">
-              <div style={{padding: '15px 5px'}} >
-                <img style={{ width: '90px'}} src="certificate.png" alt="" />
+          <div className="col-md-9 policy-card-div">
+            
+            <div className=" policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
                 <div>Materiality policy of group companies</div>
-              </div>
             </div>
 
-            <div style={{ backgroundColor: 'whitesmoke', width: '180px' }} className="card-body">
-              <div style={{padding: '15px 5px'}} >
-                <img style={{ width: '90px'}} src="certificate.png" alt="" />
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
                 <div>Materiality policy of group companies</div>
-              </div>
             </div>
 
-          </main>
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+            <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>Materiality policy of group companies</div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
