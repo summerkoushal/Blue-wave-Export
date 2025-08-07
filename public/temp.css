@@ -2,6 +2,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#sugar {
+    color: var(--theme-bright);
+    font-weight: bold;
+}
+.cont2, .cont3, .cont4, .cont5, .cont6 {
+    display: none;
+}
 @media screen and (max-width: 991px) {
     .prod-container {
         margin-top: 40px;
