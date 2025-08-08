@@ -18,18 +18,26 @@ export default function HomeAbout() {
           <h4 className="home-about-written-subheading">ABOUT</h4>
           <h2 className="home-about-written-heading">Blue Wave Exports</h2>
           <p style={{ textAlign: "justify" }}>
-            Our Company is engaged into trading and marketing of agricultural
-            produce and commodities such as sugar, spices like dry red chillies,
-            turmeric, coriander, cumin seeds, food grains like rice, wheat,
-            corn, sorghum and tea, pulses and agricultural feed like soyabean
-            meal and rice bran de-oiled cake. We import lentils, faba beans,
-            black Matpe, and toor (Pigean Peas) in India in bulk quantities. Our
-            major imports are from Canada, Australia and Burma. We are
-            B2Btraders, highly specialized in sugar, corn and dal. We maintain
-            stocks and distribute them to different institutional parties like
-            manufacturers, exporters, etc. We provide them in bulk quantities.
-            We follow standard packing process to ensure that quality and
-            authentic taste of commodities remains intact. Read More
+            Blue Wave Exports specializes in exporting a wide range of products
+            to meet the diverse needs of our global customers. Our company is
+            actively engaged in the trading and marketing of high-quality
+            agricultural produce and commodities. Our product portfolio includes
+            sugar, a variety of spices such as dry red chillies, turmeric,
+            coriander, and cumin seeds, as well as essential food grains like
+            rice, wheat, corn, sorghum, and tea. <br />
+            In addition to our core exports, we also deal in pulses and
+            agricultural feed products such as soybean meal and rice bran
+            de-oiled cake, widely used in the livestock and poultry industry.
+            Our portfolio further includes fresh and frozen fruits and
+            vegetables, leather goods like handbags, belts, and shoes, as well
+            as daily essentials and personal care items catering to global
+            consumer needs. We export a wide range of clothing and
+            apparel—casual, formal, and traditional—crafted to match
+            international fashion trends. Our machinery and equipment segment
+            supports industrial and agricultural sectors with reliable tools and
+            technology. We also offer premium dairy products including milk,
+            cheese, and yogurt, as well as finely crafted jewellery made of
+            gold, silver, and precious stones.
           </p>
           <button className="btn btn-warning">Read More</button>
           <p className="mt-2">

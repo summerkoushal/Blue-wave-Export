@@ -23,10 +23,15 @@ export default function Policy() {
             
             <div className=" policy-card">
                 <img className='policy-card-img' src="certificate.png" alt="" />
-                <div>Materiality policy of group companies</div>
+                <div>Shopact Blue Wave</div>
             </div>
 
             <div className="policy-card">
+                <img className='policy-card-img' src="certificate.png" alt="" />
+                <div>MSME Certificate</div>
+            </div>
+
+            {/* <div className="policy-card">
                 <img className='policy-card-img' src="certificate.png" alt="" />
                 <div>Materiality policy of group companies</div>
             </div>
@@ -64,12 +69,7 @@ export default function Policy() {
             <div className="policy-card">
                 <img className='policy-card-img' src="certificate.png" alt="" />
                 <div>Materiality policy of group companies</div>
-            </div>
-
-            <div className="policy-card">
-                <img className='policy-card-img' src="certificate.png" alt="" />
-                <div>Materiality policy of group companies</div>
-            </div>
+            </div> */}
 
           </div>
         </div>

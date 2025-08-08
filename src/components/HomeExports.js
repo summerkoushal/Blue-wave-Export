@@ -6,30 +6,41 @@ export default function HomeExports() {
       <div className="home-export-text container">
         <h5 className="home-export-text-subheading">Why Choose Us?</h5>
         <h2 className="home-export-text-heading">Exports / Imports</h2>
-        <p> Our network is spread all over the world including India. The countries in which we deal are inclusive of ................................. </p>
-        <div style={{ display: "flex" }} >
+        <p>
+          {" "}
+          Our network is spread all over the world including India. The
+          countries in which we deal are inclusive of
+          .................................{" "}
+        </p>
+        <div style={{ display: "flex" }}>
           <div style={{ width: "40%", marginLeft: "30px" }}>
-            <b>Exports</b>
-            <br /> ✔ Srilanka
-            <br /> ✔ Malaysia
-            <br /> ✔ Bangladesh
-            <br /> ✔ UAE
-            <br /> ✔ Singapore
-            <br /> ✔ Russia
-            <br /> ✔ Djibouti
-            <br /> ✔ Benin
-            <br /> ✔ Afghanistan
+            <b>Why Blue Wave</b>
+            <br /> ✔ Wide range of products
+            <br /> ✔ Competitive pricing
+            <br /> ✔ Timely delivery
+            <br /> ✔ B2B Expertise
+            <br /> ✔ Quality assurance
+            <br /> ✔ Excellent customer service
+            <br /> ✔ Global Sourcing & Distribution
+            <br /> ✔ Customer-Centric Approach
           </div>
           <div>
-            <b>Imports</b>
-            <br /> ✔ Canada
-            <br /> ✔ Australia
-            <br /> ✔ Myanmar
-            <br /> ✔ Tanzania
+            <b>Partner Benefits</b>
+            <br /> ✔ Export/Import Solutions
+            <br /> ✔ Bulk Supply
+            <br /> ✔ Custom Packaging
+            <br /> ✔ Strong Logistics
+            <br /> ✔ Trusted Network
+            <br /> ✔ Quality & Compliance
+            <br /> ✔ Partnership Focus
           </div>
         </div>
       </div>
-      <img className="home-export-img" src="https://www.umaexports.net/images/map.png" alt="" />
+      <img
+        className="home-export-img"
+        src="https://www.umaexports.net/images/map.png"
+        alt=""
+      />
     </div>
   );
 }
