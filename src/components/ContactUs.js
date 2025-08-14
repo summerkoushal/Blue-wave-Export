@@ -5,7 +5,7 @@ export default function ContactUs() {
     <div>
       <div className="contact-div">
         <div className="contact-map">
-          <iframe className="contact-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008575643768!2d-117.92154912424449!3d33.81209177324842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sin!4v1749910450059!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+          <iframe className="contact-map-iframe" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3768.356211464323!2d77.03142907526406!3d19.179637982046415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDEwJzQ2LjciTiA3N8KwMDInMDIuNCJF!5e0!3m2!1sen!2sin!4v1755190422718!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
         </div>
         <div className="contact-form-div">
           <h2 className="contact-form-heading"> Contact Us
@@ -28,7 +28,7 @@ export default function ContactUs() {
             <path fill="none" d="M0 0h24v24H0V0z"></path>
             <path fill="var(--logo)" d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"></path>
           </svg>
-          <b> Phone</b> <br /> +91-33-22811396/97
+          <b> Phone</b> <br /> +91 7972334852
         </div>
         <div className="contact-info-cards">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"id="email" >
@@ -58,7 +58,7 @@ export default function ContactUs() {
             </g>
           </svg>
           &nbsp;
-          <b> Fax</b> <br /> +91-33-22813480
+          <b> Fax</b> <br /> +91 7972334852
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@ export default function Certifications() {
         </div>
         <div className="certficate-card">
           <img className="certificate" src="certificate.png" alt="" />
-          <p style={{ display: "inline" }}>Certificate</p>
+          <p style={{ display: "inline" }}>MSME Certificate</p>
         </div>
         <div className="certficate-card">
           <img className="certificate" src="certificate.png" alt="" />
@@ -47,7 +47,7 @@ export default function Certifications() {
         </div>
         <div className="certficate-card">
           <img className="certificate" src="certificate.png" alt="" />
-          <p style={{ display: "inline" }}>UMA holder Certificate</p>
+          <p style={{ display: "inline" }}>Blue Wave holder Certificate</p>
         </div>
       </div>
     </div>

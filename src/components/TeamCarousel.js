@@ -9,19 +9,19 @@ const SCROLL_DURATION = 25; // seconds
 
 const members = [
   {
-    name: "Mrs. Sriti Singh Roy",
-    role: "Company Secretary",
-    img: "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1052854742.jpg?crop=1xw:1.0xh;center,top&resize=640:*",
+    name: "Mrs Lata Siddharth Kuldeepke",
+    role: "President",
+    img: "man_dummy.jpg",
   },
   {
-    name: "Mrinmoy Kasyapi",
-    role: "Designation President",
-    img: "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1052854742.jpg?crop=1xw:1.0xh;center,top&resize=640:*",
+    name: "Vijaykumar Kishanrao ",
+    role: "Secretary",
+    img: "man_dummy.jpg",
   },
   {
-    name: "Rakhesh Khemka",
-    role: "Managing Director",
-    img: "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1052854742.jpg?crop=1xw:1.0xh;center,top&resize=640:*",
+    name: "Pushpa Vijaykumar Kuldeepke",
+    role: "Asst. Secretary",
+    img: "man_dummy.jpg",
   },
 ];
 
