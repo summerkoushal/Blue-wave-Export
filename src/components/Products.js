@@ -35,6 +35,13 @@ export default function Products() {
     const contItem = document.getElementsByClassName(contName);
     contItem[0].style.display = "block";
   }
+  function downloadMSME() {
+    const link = document.createElement('a');
+    link.href = "MSME.pdf";
+    link.download = "MSME.pdf";
+    document.body.appendChild(link);
+    link.click();
+  }
   return (
     <div className="container prod-container">
       <div className="row">
@@ -50,7 +57,7 @@ export default function Products() {
                 <li id="pulses" onClick={() => showCategory("pulses")}> Pulses </li>
                 <li id="agroFeed" onClick={() => showCategory("agroFeed")}> Agro Feed </li>
               </ul>
-              <button className="btn btn-outline-secondary w-100"> ⬇️ Download Brochure </button>
+              <button onClick={downloadMSME} className="btn btn-outline-secondary w-100"> ⬇️ Download Brochure </button>
             </div>
           </div>
           <div className="card bg-dark text-white">
