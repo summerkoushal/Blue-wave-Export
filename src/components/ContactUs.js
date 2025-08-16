@@ -47,7 +47,7 @@ export default function ContactUs() {
           Purna Dist Parbhani <br />
           Pin : 431511
         </div>
-        <div className="contact-info-cards">
+        <div className="contact-info-cards contact-card-fax">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="fax-machine" >
             <g>
               <path fill="var(--logo)" d="M27,10H13a1,1,0,0,1-1-1V1a1,1,0,0,1,1-1H27a1,1,0,0,1,1,1V9A1,1,0,0,1,27,10ZM14,8H26V2H14Z" ></path>

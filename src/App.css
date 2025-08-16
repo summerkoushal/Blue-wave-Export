@@ -1,4 +1,7 @@
-/* left : home, product  */
+/*
+homeProducts, contactAdjustMail
+product
+*/
 /* global------------------------------------------------------------------------ */
 * {
     box-sizing: border-box;
@@ -557,6 +560,7 @@ html, body {
     min-height: 350px;
 }
 .contact-info-cards {
+    width: 20vw;
     margin: 30px;
     padding: 20px 25px;
     /* styling below */
@@ -572,6 +576,11 @@ svg {
     width: 30px;
 }
 /*------ */
+@media screen and (max-width: 1200px) {
+    .contact-info-cards {
+        width: 30vw;
+    }
+}
 @media screen and (max-width: 991px) {
     .contact-map {
         width: 45%;
@@ -581,6 +590,9 @@ svg {
     }
     .contact-form {
         padding: 20px;
+    }
+    .contact-info-cards {
+        width: 40vw;
     }
 }
 @media screen and (max-width: 767px) {
@@ -635,6 +647,9 @@ svg {
         width: calc(100vw - 30px);
         margin: 9px 0px 0px 0px;
         padding: 8px 15px;
+    }
+    .contact-card-fax {
+        margin-bottom: 9px;
     }
     svg {
         height: 30px;

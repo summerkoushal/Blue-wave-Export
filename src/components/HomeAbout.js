@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
 export default function HomeAbout() {
+  const navigate = useNavigate();
   return (
     <div
       style={{
@@ -39,9 +41,9 @@ export default function HomeAbout() {
             cheese, and yogurt, as well as finely crafted jewellery made of
             gold, silver, and precious stones.
           </p>
-          <button className="btn btn-warning">Read More</button>
+          <button onClick={() => { navigate("/about"); window.scrollTo(0, 0); }} className="btn btn-warning">Read More</button>
           <p className="mt-2">
-            Call to ask any question <br /> <b>+91-33-22811396/97</b>
+            Call to ask any question <br /> <b>+91 7972334852</b>
           </p>
         </div>
       </div>

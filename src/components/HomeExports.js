@@ -10,7 +10,7 @@ export default function HomeExports() {
           {" "}
           Our network is spread all over the world including India. The
           countries in which we deal are inclusive of
-          .................................{" "}
+          ............{" "}
         </p>
         <div style={{ display: "flex" }}>
           <div style={{ width: "40%", marginLeft: "30px" }}>

@@ -57,7 +57,7 @@ export default function Products() {
             <div className="card-body">
               <h5 className="card-title">How Can We Help?</h5>
               <p className="card-text small"> If you need any help, please feel free to contact us. </p>
-              <p className="mb-0">📞 +91-33-2281396/97</p>
+              <p className="mb-0">📞 +91 79723 34852</p>
             </div>
           </div>
         </aside>

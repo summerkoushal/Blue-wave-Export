@@ -4,27 +4,27 @@ const associates = [
   {
     name: "ICICI Bank",
     category: "Bankers",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/2560px-ICICI_Bank_Logo.svg.png",
+    logo: "ICICI_Bank_Logo.png",
   },
   {
     name: "Union Bank of India",
     category: "Bankers",
-    logo: "https://www.cdnlogo.com/logos/u/84/union-bank-of-india.svg",
+    logo: "union-bank-of-india.svg",
   },
   {
     name: "Axis Bank",
     category: "Bankers",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/AXISBank_Logo.svg/1200px-AXISBank_Logo.svg.png",
+    logo: "AXISBank_Logo.png",
   },
   {
     name: "Karnataka Bank Ltd.",
     category: "Bankers",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8a6satEJhn8l7KzhswPBCZMnGqzyl8e1Xw&s",
+    logo: "KarnatakaBankLtd.jpeg",
   },
   {
     name: "NABARD",
     category: "Public Sector Undertakings",
-    logo: "https://images.odishatv.in/uploadimage/library/16_9/16_9_5/IMAGE_1665890719.jpg",
+    logo: "NabardPSU.jpg",
   },
 ];
 
