@@ -60,13 +60,13 @@ export default function Products() {
           <div className="card mb-4">
             <div className="card-body">
               <ul className="list-unstyled mb-3">
-                <li id="FruitsVegetables" onClick={() => showCategory("FruitsVegetables")}> Fruits & Vegetables </li>
-                <li id="LeatherProducts" onClick={() => showCategory("LeatherProducts")}> Leather Products </li>
-                <li id="DairyEssentails" onClick={() => showCategory("DairyEssentails")}> Dairy Essentials </li>
-                <li id="PulsesSpices" onClick={() => showCategory("PulsesSpices")}> Pulses & Spices </li>
-                <li id="Clothes" onClick={() => showCategory("Clothes")}> Clothes </li>
-                <li id="Machineries" onClick={() => showCategory("Machineries")}> Machineries </li>
-                <li id="Jewellery" onClick={() => showCategory("Jewellery")}> Jewellery </li>
+                <li className='opt' id="FruitsVegetables" onClick={() => showCategory("FruitsVegetables")}> Fruits & Vegetables </li>
+                <li className='opt' id="LeatherProducts" onClick={() => showCategory("LeatherProducts")}> Leather Products </li>
+                <li className='opt' id="DairyEssentails" onClick={() => showCategory("DairyEssentails")}> Dairy Essentials </li>
+                <li className='opt' id="PulsesSpices" onClick={() => showCategory("PulsesSpices")}> Pulses & Spices </li>
+                <li className='opt' id="Clothes" onClick={() => showCategory("Clothes")}> Clothes </li>
+                <li className='opt' id="Machineries" onClick={() => showCategory("Machineries")}> Machineries </li>
+                <li className='opt' id="Jewellery" onClick={() => showCategory("Jewellery")}> Jewellery </li>
 
               </ul>
               <button onClick={downloadMSME} className="btn btn-outline-secondary w-100"> ⬇️ Download Brochure </button>
