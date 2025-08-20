@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function LeatherProducts() {
   return (
-    <div className='cont2' >
+    <div className="cont2">
       <div className="mb-5 text-cemnter">
         <img
-          src="https://www.umaexports.net/images/food_grains.jpg"
+          src="/productImgs/LeatherProduct7.jpeg"
           alt="Food Grains"
           className="img-fluid rounded"
           style={{ width: "100%" }}
@@ -15,7 +15,7 @@ export default function LeatherProducts() {
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/rice.jpg"
+            src="/productImgs/LeatherProduct1.jpeg"
             alt="Rice"
             className="img-fluid rounded"
           />
@@ -23,36 +23,30 @@ export default function LeatherProducts() {
         <div className="col-md-8">
           <h2 className="h4 mb-2">Leather Bags</h2>
           <p>
-            Rice is the most widely consumed staple food for a large part of the
-            world's human population.
+            Our leather bags are crafted with premium quality leather and fine
+            workmanship. Designed to combine style with durability, these bags
+            are spacious, elegant, and suitable for both casual and professional
+            use. We offer a wide range of designs and can also provide
+            customized options as per client requirements.
           </p>
-          <ul className="list-unstyled ps-3">
-            <li>• Raw Rice — 5% or 20% or 25% broken or 100% broken</li>
-            <li>• Parboiled Rice — 5% or 20% or 25% broken</li>
-            <li>• IR64 Raw or Parboiled Rice</li>
-            <li>• Swarna Masuri Rice</li>
-            <li>• Basmati Rice & Non Basmati Rice</li>
-            <li>
-              • We can arrange supplies of 100% clean rice by sortex machine
-            </li>
-          </ul>
         </div>
       </div>
       <hr />
 
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Wheat</h2>
+          <h2 className="h4 mb-2">Leather Wallet</h2>
           <p>
-            Wheat is another most important staple food consumed globally. It is
-            the leading source of protein and carbohydrates. Wheat is easily
-            digested and crafted into bread, cookies, and more. Varieties
-            include Indian wheat and wheat flour (Atta and Maida).
+            Leather wallets from our collection are known for their sleek
+            design, durability, and functionality. Made from genuine leather,
+            they are stylish yet practical, offering multiple compartments for
+            everyday use. These wallets are in high demand across global markets
+            for their quality and long-lasting appeal.
           </p>
         </div>
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/wheat.jpg"
+            src="/productImgs/LeatherProduct6.jpeg"
             alt="Wheat"
             className="img-fluid rounded"
           />
@@ -63,38 +57,20 @@ export default function LeatherProducts() {
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/corn.jpg"
+            src="/productImgs/LeatherProduct8.jpeg"
             alt="Corn"
             className="img-fluid rounded"
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Corn</h2>
+          <h2 className="h4 mb-2">Leather Belts</h2>
           <p>
-            Corn or maize is a staple human food and also used for starch,
-            popcorn, and oil. It's a major animal feed too. We offer Indian Corn
-            in various varieties.
+            Our leather belts are designed with precision, ensuring strength,
+            durability, and timeless style. Available in both formal and casual
+            designs, these belts are made from top-grade leather that guarantees
+            long-lasting use. They are crafted to suit diverse customer
+            preferences and international fashion trends.
           </p>
-        </div>
-      </div>
-      <hr />
-
-      <div className="row g-4 align-items-start">
-        <div className="col-md-8">
-          <h2 className="h4 mb-2">Sorghum</h2>
-          <p>
-            Sorghum is widely used in food and industrial applications. It has
-            high starch content and is offered in quality packaging. Popular for
-            its taste and aroma, our sorghum is available at cost-effective
-            prices.
-          </p>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="https://www.umaexports.net/images/sorghum.jpg"
-            alt="Sorghum"
-            className="img-fluid rounded"
-          />
         </div>
       </div>
     </div>

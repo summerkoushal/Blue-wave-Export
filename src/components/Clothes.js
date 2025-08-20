@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Clothes() {
   return (
-    <div className='cont5' >
+    <div className="cont5">
       <div className="mb-5 text-cemnter">
         <img
-          src="https://www.umaexports.net/images/food_grains.jpg"
+          src="/productImgs/Clothes3.jpeg"
           alt="Food Grains"
           className="img-fluid rounded"
           style={{ width: "100%" }}
@@ -15,44 +15,42 @@ export default function Clothes() {
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/rice.jpg"
+            src="/productImgs/Clothes4.jpeg"
             alt="Rice"
             className="img-fluid rounded"
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Hoodie</h2>
+          <h2 className="h4 mb-2">Kids Wear</h2>
           <p>
-            Rice is the most widely consumed staple food for a large part of the
-            world's human population.
+            Our kids wear collection is designed with comfort, safety, and style
+            in mind. Made from soft, skin-friendly fabrics, these clothes ensure
+            ease of movement and long-lasting wear. We offer a wide variety of
+            designs, from casual daily wear to festive outfits, keeping both
+            global fashion trends and traditional styles in mind. Each piece is
+            crafted to provide durability while maintaining a vibrant and
+            playful look for children.
           </p>
-          <ul className="list-unstyled ps-3">
-            <li>• Raw Rice — 5% or 20% or 25% broken or 100% broken</li>
-            <li>• Parboiled Rice — 5% or 20% or 25% broken</li>
-            <li>• IR64 Raw or Parboiled Rice</li>
-            <li>• Swarna Masuri Rice</li>
-            <li>• Basmati Rice & Non Basmati Rice</li>
-            <li>
-              • We can arrange supplies of 100% clean rice by sortex machine
-            </li>
-          </ul>
         </div>
       </div>
       <hr />
 
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Wheat</h2>
+          <h2 className="h4 mb-2">Women Wear</h2>
           <p>
-            Wheat is another most important staple food consumed globally. It is
-            the leading source of protein and carbohydrates. Wheat is easily
-            digested and crafted into bread, cookies, and more. Varieties
-            include Indian wheat and wheat flour (Atta and Maida).
+            Our women wear range reflects elegance, comfort, and contemporary
+            fashion. From traditional attire to modern outfits, each garment is
+            made with premium fabrics and fine tailoring. We offer sarees,
+            suits, dresses, tops, and more, catering to the diverse preferences
+            of international clients. Our designs combine style with
+            functionality, making them suitable for daily use as well as special
+            occasions.
           </p>
         </div>
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/wheat.jpg"
+            src="/productImgs/Clothes1.jpeg"
             alt="Wheat"
             className="img-fluid rounded"
           />
@@ -63,38 +61,21 @@ export default function Clothes() {
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/corn.jpg"
+            src="/productImgs/Clothes2.jpeg"
             alt="Corn"
             className="img-fluid rounded"
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Corn</h2>
+          <h2 className="h4 mb-2">Men Wear</h2>
           <p>
-            Corn or maize is a staple human food and also used for starch,
-            popcorn, and oil. It's a major animal feed too. We offer Indian Corn
-            in various varieties.
+            Our men wear collection is tailored to meet both formal and casual
+            fashion needs. We supply shirts, trousers, suits, ethnic wear, and
+            casual outfits crafted with high-quality fabrics. Each product is
+            designed for durability, comfort, and modern appeal, ensuring it
+            meets international fashion standards. Our men's clothing range is
+            popular among global buyers for its versatility and premium finish.
           </p>
-        </div>
-      </div>
-      <hr />
-
-      <div className="row g-4 align-items-start">
-        <div className="col-md-8">
-          <h2 className="h4 mb-2">Sorghum</h2>
-          <p>
-            Sorghum is widely used in food and industrial applications. It has
-            high starch content and is offered in quality packaging. Popular for
-            its taste and aroma, our sorghum is available at cost-effective
-            prices.
-          </p>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="https://www.umaexports.net/images/sorghum.jpg"
-            alt="Sorghum"
-            className="img-fluid rounded"
-          />
         </div>
       </div>
     </div>

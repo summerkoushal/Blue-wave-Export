@@ -5,7 +5,7 @@ export default function FruitsVegetables() {
     <div className="cont1">
       <div className="mb-5 text-cemnter">
         <img
-          src="https://www.umaexports.net/images/food_grains.jpg"
+          src="/productImgs/fruits&Vegetables4.jpeg"
           alt="Food Grains"
           className="img-fluid rounded"
           style={{ width: "100%" }}
@@ -15,7 +15,7 @@ export default function FruitsVegetables() {
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/rice.jpg"
+            src="/productImgs/fruits&Vegetables5.jpg"
             alt="Rice"
             className="img-fluid rounded"
           />
@@ -23,76 +23,32 @@ export default function FruitsVegetables() {
         <div className="col-md-8">
           <h2 className="h4 mb-2">Onion</h2>
           <p>
-            Rice is the most widely consumed staple food for a large part of the
-            world's human population.
+            Onion is one of the most widely consumed vegetables across the
+            world, used as a base ingredient in countless cuisines. We procure
+            fresh and high-quality onions directly from trusted farmers to
+            ensure superior taste and long shelf life. Our onions are carefully
+            graded, cleaned, and packed to retain their natural freshness during
+            export.
           </p>
-          <ul className="list-unstyled ps-3">
-            <li>• Raw Rice — 5% or 20% or 25% broken or 100% broken</li>
-            <li>• Parboiled Rice — 5% or 20% or 25% broken</li>
-            <li>• IR64 Raw or Parboiled Rice</li>
-            <li>• Swarna Masuri Rice</li>
-            <li>• Basmati Rice & Non Basmati Rice</li>
-            <li>
-              • We can arrange supplies of 100% clean rice by sortex machine
-            </li>
-          </ul>
         </div>
       </div>
       <hr />
 
       <div className="mb-5 row g-4 align-items-start">
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Wheat</h2>
+          <h2 className="h4 mb-2">Custard Apple</h2>
           <p>
-            Wheat is another most important staple food consumed globally. It is
-            the leading source of protein and carbohydrates. Wheat is easily
-            digested and crafted into bread, cookies, and more. Varieties
-            include Indian wheat and wheat flour (Atta and Maida).
+            Custard apple, also known as “Sitaphal,” is a tropical fruit loved
+            for its creamy sweetness and rich nutritional value. We source
+            naturally ripened custard apples that are grown in fertile regions
+            of India. Hygienically handled and packed, these fruits are exported
+            with complete care to maintain their natural flavor and freshness.
           </p>
         </div>
         <div className="col-md-4">
           <img
-            src="https://www.umaexports.net/images/wheat.jpg"
+            src="/productImgs/fruits&Vegetables1.jpeg"
             alt="Wheat"
-            className="img-fluid rounded"
-          />
-        </div>
-      </div>
-      <hr />
-
-      <div className="mb-5 row g-4 align-items-start">
-        <div className="col-md-4">
-          <img
-            src="https://www.umaexports.net/images/corn.jpg"
-            alt="Corn"
-            className="img-fluid rounded"
-          />
-        </div>
-        <div className="col-md-8">
-          <h2 className="h4 mb-2">Corn</h2>
-          <p>
-            Corn or maize is a staple human food and also used for starch,
-            popcorn, and oil. It's a major animal feed too. We offer Indian Corn
-            in various varieties.
-          </p>
-        </div>
-      </div>
-      <hr />
-
-      <div className="row g-4 align-items-start">
-        <div className="col-md-8">
-          <h2 className="h4 mb-2">Sorghum</h2>
-          <p>
-            Sorghum is widely used in food and industrial applications. It has
-            high starch content and is offered in quality packaging. Popular for
-            its taste and aroma, our sorghum is available at cost-effective
-            prices.
-          </p>
-        </div>
-        <div className="col-md-4">
-          <img
-            src="https://www.umaexports.net/images/sorghum.jpg"
-            alt="Sorghum"
             className="img-fluid rounded"
           />
         </div>
