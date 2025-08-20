@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function FoodGrains() {
+export default function PulsesSpices() {
   return (
-    <div className='cont3' >
+    <div className='cont4' >
       <div className="mb-5 text-cemnter">
         <img
           src="https://www.umaexports.net/images/food_grains.jpg"
@@ -21,7 +21,7 @@ export default function FoodGrains() {
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Rice3</h2>
+          <h2 className="h4 mb-2">Chilli powder</h2>
           <p>
             Rice is the most widely consumed staple food for a large part of the
             world's human population.

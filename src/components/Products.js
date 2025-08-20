@@ -1,15 +1,24 @@
 import React from 'react'
-import Sugar from './Sugar';
-import Spices from './Spices';
-import FoodGrains from './FoodGrains';
-import Tea from './Tea';
-import Pulses from './Pulses';
-import AgroFeed from './AgroFeed';
+import FruitsVegetables from './FruitsVegetables';
+import LeatherProducts from './LeatherProducts';
+import DairyEssentails from './DairyEssentails';
+import PulsesSpices from './PulsesSpices';
+import Clothes from './Clothes';
+import Machineries from './Machineries';
+import Jewellery from './Jewellery';
 
 export default function Products() {
   function showCategory(categoryName) {
-    const itemArr = ['sugar', 'spices', 'foodGrains', 'tea', 'pulses', 'agroFeed'];
-    const contArr = ['cont1', 'cont2', 'cont3', 'cont4', 'cont5', 'cont6'];
+    const itemArr = [
+      "FruitsVegetables",
+      "LeatherProducts",
+      "DairyEssentails",
+      "PulsesSpices",
+      "Clothes",
+      "Machineries",
+      "Jewellery",
+    ];
+    const contArr = ['cont1', 'cont2', 'cont3', 'cont4', 'cont5', 'cont6', 'cont7'];
     for (let i = 0; i < itemArr.length; i++) {
       const liItem = document.getElementById(itemArr[i]);
       liItem.style.color = "black";
@@ -25,12 +34,13 @@ export default function Products() {
     liItem.style.fontWeight = "bold";
 
     var contName;
-    if (categoryName == 'sugar') contName = 'cont1';
-    if (categoryName == "spices") contName = "cont2";
-    if (categoryName == "foodGrains") contName = "cont3";
-    if (categoryName == "tea") contName = "cont4";
-    if (categoryName == "pulses") contName = "cont5";
-    if (categoryName == "agroFeed") contName = "cont6";
+    if (categoryName == 'FruitsVegetables') contName = 'cont1';
+    if (categoryName == "LeatherProducts") contName = "cont2";
+    if (categoryName == "DairyEssentails") contName = "cont3";
+    if (categoryName == "PulsesSpices") contName = "cont4";
+    if (categoryName == "Clothes") contName = "cont5";
+    if (categoryName == "Machineries") contName = "cont6";
+    if (categoryName == "Jewellery") contName = "cont7";
 
     const contItem = document.getElementsByClassName(contName);
     contItem[0].style.display = "block";
@@ -50,12 +60,14 @@ export default function Products() {
           <div className="card mb-4">
             <div className="card-body">
               <ul className="list-unstyled mb-3">
-                <li id="sugar" onClick={() => showCategory("sugar")}> Sugar </li>
-                <li id="spices" onClick={() => showCategory("spices")}> Spices </li>
-                <li id="foodGrains" onClick={() => showCategory("foodGrains")}> Food Grains </li>
-                <li id="tea" onClick={() => showCategory("tea")}> Tea </li>
-                <li id="pulses" onClick={() => showCategory("pulses")}> Pulses </li>
-                <li id="agroFeed" onClick={() => showCategory("agroFeed")}> Agro Feed </li>
+                <li id="FruitsVegetables" onClick={() => showCategory("FruitsVegetables")}> Fruits & Vegetables </li>
+                <li id="LeatherProducts" onClick={() => showCategory("LeatherProducts")}> Leather Products </li>
+                <li id="DairyEssentails" onClick={() => showCategory("DairyEssentails")}> Dairy Essentials </li>
+                <li id="PulsesSpices" onClick={() => showCategory("PulsesSpices")}> Pulses & Spices </li>
+                <li id="Clothes" onClick={() => showCategory("Clothes")}> Clothes </li>
+                <li id="Machineries" onClick={() => showCategory("Machineries")}> Machineries </li>
+                <li id="Jewellery" onClick={() => showCategory("Jewellery")}> Jewellery </li>
+
               </ul>
               <button onClick={downloadMSME} className="btn btn-outline-secondary w-100"> ⬇️ Download Brochure </button>
             </div>
@@ -70,12 +82,13 @@ export default function Products() {
         </aside>
 
         <main className="col-md-9">
-          <Sugar />
-          <Spices />
-          <FoodGrains />
-          <Tea />
-          <Pulses />
-          <AgroFeed />
+          <FruitsVegetables />
+          <LeatherProducts />
+          <DairyEssentails />
+          <PulsesSpices />
+          <Clothes />
+          <Machineries />
+          <Jewellery />
         </main>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Spices() {
+export default function LeatherProducts() {
   return (
     <div className='cont2' >
       <div className="mb-5 text-cemnter">
@@ -21,7 +21,7 @@ export default function Spices() {
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Rice2</h2>
+          <h2 className="h4 mb-2">Leather Bags</h2>
           <p>
             Rice is the most widely consumed staple food for a large part of the
             world's human population.

@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Sugar() {
+export default function DairyEssentails() {
   return (
-    <div className='cont1' >
+    <div className="cont3">
       <div className="mb-5 text-cemnter">
         <img
           src="https://www.umaexports.net/images/food_grains.jpg"
@@ -21,7 +21,7 @@ export default function Sugar() {
           />
         </div>
         <div className="col-md-8">
-          <h2 className="h4 mb-2">Rice1</h2>
+          <h2 className="h4 mb-2">Farm fresh egge</h2>
           <p>
             Rice is the most widely consumed staple food for a large part of the
             world's human population.
