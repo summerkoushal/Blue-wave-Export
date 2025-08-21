@@ -11,7 +11,7 @@ export default function ContactUs() {
           <h2 className="contact-form-heading"> Contact Us
             <div className="bg-warning" style={{ width: "3.5rem", height: "4px", marginTop: '7px' }}/>
           </h2>
-          <form className="contact-form" action="https://formspree.io/f/manjjnvb" method="POST">
+          <form className="contact-form" action="https://formspree.io/f/xnnzkrvv" method="POST">
             <input className="contact-form-input" type="text" placeholder="Full Name*" name="Name" autoComplete="off" required />
             <input className="contact-form-input" type="text" placeholder="Phone Number*" name="Phone" autoComplete="off" required />
             <input className="contact-form-input" type="email" placeholder="Email Address*" name="Email" autoComplete="off" required />
